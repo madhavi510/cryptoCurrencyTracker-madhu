@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #00e7ff;
+  font-size: 25px;
+  font-family: 'roboto';
+}
+.app-image {
+  height: 180px;
+}
+.cryptocurrency-item-container {
+  border: 1px solid #00e7ff;
+  padding: 10px;
+  height: 340px;
+  width: 580px;
+  border-radius: 10px;
+}
+.item-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+}
+.money-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.coin-type {
+  color: #ffffff;
+  margin-left: 10px;
+}
+.usd {
+  color: #ffffff;
+  margin-right: 40px;
+}
+.euro {
+  color: #ffffff;
+  margin-right: 10px;
+}
